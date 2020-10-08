@@ -9,6 +9,8 @@ for el in count(3):
 
 lst = ['f', 2, 'o']
 
+
+
 counter = 0
 for el in cycle(lst):
     if counter >= 5:

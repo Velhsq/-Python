@@ -1,7 +1,6 @@
 
 # 1 решение: через метод списка count
 lst = [2, 2, 2, 7, 23, 1, 44, 44, 3, 2, 10, 7, 4, 11]
-
 def generator(a):
     for i in a:
         if a.count(i) == 1:
